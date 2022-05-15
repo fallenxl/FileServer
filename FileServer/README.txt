@@ -10,6 +10,9 @@ go mod init para que funcione correctamente.
 - CMD (Windows): acceda al directorio donde esta el archivo, y ejecute go build .
 luego fileserver, o el nombre de la carpeta que le haya asignado.
 
+- Usuario: puede acceder desde la consola con el comando <telnet localhost 8282> o puede ajustar 
+el puerto a su preferencia (main.go line: 14)
+
 <---------------------------------- Comandos ----------------------------------------->
 
 =======================================================================================
