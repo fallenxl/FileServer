@@ -13,6 +13,13 @@ luego fileserver, o el nombre de la carpeta que le haya asignado.
 - Usuario: puede acceder desde la consola con el comando <telnet localhost 8282> o puede ajustar 
 el puerto a su preferencia (main.go line: 14)
 
+- Enviar archivos: se ha creado una carpeta files dentro del proyecto por el cual se enviaran los archivos
+a los usuarios conectados en el canal, se utilizo la carpeta files con intenciones de pruebas para facilitar
+la demostracion, pero se puede modificar la direccion del directorio a su preferencia.
+
+Para enviar archivos debe estar dentro de un canal, se sugiere que registre un nombre de usuario
+para evitar sobre-escritura de archivos en las carpetas de los usuarios.
+
 <---------------------------------- Comandos ----------------------------------------->
 
 =======================================================================================
